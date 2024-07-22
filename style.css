@@ -1,0 +1,123 @@
+* {
+   margin: 0;
+   padding: 0;
+
+}
+body {
+    background-color: #2f2f46;
+    height: 100vh;
+    font-family: lato;}
+    header{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: -8rem;
+      background-color: #241d1e;
+      min-height: 50px;
+    }
+.box-img-main
+   {
+      height: 100%;
+   }
+   .img-logo {
+      max-width: 300px;
+      height: 100%;
+   }
+   nav{
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+   .nav-links {
+      text-decoration: none;
+      color: antiquewhite;
+   }
+    .nav-links:hover {
+      color: rgb(182, 152, 116);
+      transition: .4s;
+      text-decoration: underline;
+    }
+    .box-btn-actions {
+      display: flex;
+      gap: 1rem;
+   }
+   button {
+      padding: .6rem;
+      font-size: .9rem;
+      border-radius: 6px;
+      cursor: pointer;
+   }
+   .btn-action {
+      background-color: transparent;
+      border: 1px solid var(white);
+      color: white;
+   }
+   main {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+   }
+   section {
+      padding: 4rem;
+   }
+   .first-section {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 2rem;
+      flex-wrap: wrap;
+      align-items: center;
+      min-height: 650px;
+
+   }
+   .first-section > div {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      min-width: 300px;
+   }
+   h1 {
+      font-size: 4rem;
+      color: white;
+      letter-spacing: 8px;
+
+   }
+   strong {
+      color: rgb(132,14,201);
+
+   }
+   .first-section p{
+      color: white;
+   }
+   .box-img-main{
+      max-width: 450px;
+      padding: 1rem;
+   }
+   .img-logo {
+      border-radius: 50%;
+      width: 100%;
+   }
+.second-section{
+   background-color: #2f2f46;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   letter-spacing: 2px;
+   font-weight: bold;
+}
+.second-section ul{
+   display: flex;
+   list-style: none;
+   gap: 2rem;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.title{
+   color: white;
+}
